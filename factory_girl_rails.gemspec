@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = %q{factory_girl_rails}
-  s.version     = '1.7.0'
+  s.version     = '1.7.1'
   s.authors     = ["Joe Ferris"]
   s.email       = %q{jferris@thoughtbot.com}
   s.homepage    = "http://github.com/thoughtbot/factory_girl_rails"
@@ -22,5 +22,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec', '~> 2.6.0')
   s.add_development_dependency('cucumber', '~> 1.0.0')
   s.add_development_dependency('aruba')
-  s.add_development_dependency('rails', '3.0.7')
+  s.add_development_dependency('rails', '~> 3.0.7')
 end
